@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #fff;
+}
+.bg_dev{
+    padding-bottom: 10px;
+    margin:0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px !important;
+    height: 50px;
+    background-color: #011828;
+}
+.full-bleed1{
+    box-shadow: 0 0 0 100vmax #011828;
+    clip-path: inset(0 -100vmax);
+}
+.pc_menu_list_dev li a{
+    text-decoration: none;
+    color: rgb(179, 214, 5);
+    gap: 20px;
+}
+.line-height-50{
+    line-height: 50px;
+}
+.full-bleed2{
+    box-shadow: 0 0 0 100vmax #344654;
+    clip-path: inset(0 -100vmax);
+}
+.bg_dev_li{
+    background-color: #344654;
+}
+.layout{
+    padding-bottom: 10px;
+    margin:0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px !important;
+    height: 200px;
+}
+.co_intro_1{
+    font-size: 30px;
+    width: 400px;
+    padding-top: 50px;
+}
+.co-2_intro_1{
+    padding-top: 50px;
+}
+.bt1_intro_1{
+    padding: 5px 10px;
+    width: 200px;
+    border: 2px solid #3898ec;
+    border-radius: 30px;
+    background-color: #3898ec;
+    color: #fff;
+}
+.bt2_intro_1 {
+    padding: 5px 10px;
+    width: 150px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color:none;
+    color:#fff;;
+}
+.main_intro{
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1100px;
+    background-color: #011828;
+    border: solid 1px #011828;
+    border-radius: 20px;
+}
+.main_content article{
+    margin-top: 20px;
+}
+.head_1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.special_1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #3898ec;
+}
+
+div.d-flex > button{
+    border: 1px solid;
+    gap: 20px;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background: none;
+}
+#category{
+    background: none;
+}
+.submit{
+    background: none;
+    border: 1px solid #3898ec;
+    color: #3898ec;
+}
+.option{
+    background-color: #011828;
+}
+.intro_and_option{
+    padding: 30px 30px;
+}
+.btn_main_content{
+    background: none;
+    border: solid 1px rgb(200, 200, 200);
+    gap: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.btn_main_content h5, .btn_main_content div{
+    text-align: left;
+}
+.btn_main_content div{
+    font-size: 12px;
+    color: grey;
+}
+.btn_main_content div span{
+    font-size: 12px;
+}
+.soft_category{
+    padding-top: 50px;
+}
+.soft_category > span{
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 20px;
+    padding: 0 10px;
+}
